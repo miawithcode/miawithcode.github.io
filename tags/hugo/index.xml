@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Cuttontail</title>
+    <link>https://cuttontail.blog/tags/hugo/</link>
+    <description>Recent content in hugo on Cuttontail</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Aug 2022 13:01:30 +0800</lastBuildDate><atom:link href="https://cuttontail.blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何用 GitHub Pages &#43; Hugo 搭建个人博客</title>
+      <link>https://cuttontail.blog/blog/create-a-wesite-using-github-pages-and-hugo/</link>
+      <pubDate>Mon, 29 Aug 2022 13:01:30 +0800</pubDate>
+      
+      <guid>https://cuttontail.blog/blog/create-a-wesite-using-github-pages-and-hugo/</guid>
+      <description>介绍如何使用一个博客源仓库和一个GitHub Pages仓库，使用 GitHub Pages 和 Hugo 搭建个人博客。</description>
+    </item>
+    
+  </channel>
+</rss>
