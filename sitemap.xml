@@ -180,4 +180,12 @@
           </url>
     
   
+    
+      <url>
+            <loc>https://cuttontail.blog/project/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
 </urlset>
