@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on 小绵尾巴</title>
+    <link>https://cuttontail.blog/tags/github/</link>
+    <description>Recent content in github on 小绵尾巴</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2023 小绵尾巴</copyright>
+    <lastBuildDate>Fri, 02 Sep 2022 12:14:12 +0800</lastBuildDate><atom:link href="https://cuttontail.blog/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何在 Mac 上为 GitHub 设置SSH Key（2022）</title>
+      <link>https://cuttontail.blog/blog/how-to-add-ssh-key-to-github-on-mac/</link>
+      <pubDate>Fri, 02 Sep 2022 12:14:12 +0800</pubDate>
+      
+      <guid>https://cuttontail.blog/blog/how-to-add-ssh-key-to-github-on-mac/</guid>
+      <description>介绍如何在Mac上生成一个SSH Key，生成之后将SSH Key添加到自己的GitHub账号中，以便通过SSH对Git操作进行认证。</description>
+      
+    </item>
+    
+  </channel>
+</rss>

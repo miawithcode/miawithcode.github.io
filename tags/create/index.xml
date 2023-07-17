@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>create on 小绵尾巴</title>
+    <link>https://cuttontail.blog/tags/create/</link>
+    <description>Recent content in create on 小绵尾巴</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2023 小绵尾巴</copyright>
+    <lastBuildDate>Fri, 12 Aug 2022 13:04:43 +0800</lastBuildDate><atom:link href="https://cuttontail.blog/tags/create/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>创作者应该为谁创作？寻找创作自由</title>
+      <link>https://cuttontail.blog/blog/create-for-whom/</link>
+      <pubDate>Fri, 12 Aug 2022 13:04:43 +0800</pubDate>
+      
+      <guid>https://cuttontail.blog/blog/create-for-whom/</guid>
+      <description>在内容创作上，应该以「创造至少对世界上的一个人有帮助的东西」这样的心情去创作，还是以「为自己创造，让帮助到别人这件事成为附加奖励」的心情去创作呢&amp;hellip;</description>
+      
+    </item>
+    
+    <item>
+      <title>独立博客过时以后，为什么开始写博客了？</title>
+      <link>https://cuttontail.blog/blog/why-blog/</link>
+      <pubDate>Fri, 29 Jul 2022 16:01:02 +0800</pubDate>
+      
+      <guid>https://cuttontail.blog/blog/why-blog/</guid>
+      <description>写作即思考，不是我有什么话要说，是为了弄清楚我到底想说什么。</description>
+      
+    </item>
+    
+  </channel>
+</rss>

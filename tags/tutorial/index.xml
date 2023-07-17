@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tutorial on 小绵尾巴</title>
+    <link>https://cuttontail.blog/tags/tutorial/</link>
+    <description>Recent content in tutorial on 小绵尾巴</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2023 小绵尾巴</copyright>
+    <lastBuildDate>Tue, 18 Oct 2022 20:36:05 +0800</lastBuildDate><atom:link href="https://cuttontail.blog/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何给项目设置 GitHub Pages</title>
+      <link>https://cuttontail.blog/blog/deploy-project-to-gh-pages/</link>
+      <pubDate>Tue, 18 Oct 2022 20:36:05 +0800</pubDate>
+      
+      <guid>https://cuttontail.blog/blog/deploy-project-to-gh-pages/</guid>
+      <description>介绍当仓库中已经有一个 &lt;code&gt;&amp;lt;username&amp;gt;.github.io&lt;/code&gt; 仓库时，如何创建&lt;code&gt;gh-pages&lt;/code&gt;分支来为项目设置 GitHub Pages。</description>
+      
+    </item>
+    
+    <item>
+      <title>如何在 Mac 上为 GitHub 设置SSH Key（2022）</title>
+      <link>https://cuttontail.blog/blog/how-to-add-ssh-key-to-github-on-mac/</link>
+      <pubDate>Fri, 02 Sep 2022 12:14:12 +0800</pubDate>
+      
+      <guid>https://cuttontail.blog/blog/how-to-add-ssh-key-to-github-on-mac/</guid>
+      <description>介绍如何在Mac上生成一个SSH Key，生成之后将SSH Key添加到自己的GitHub账号中，以便通过SSH对Git操作进行认证。</description>
+      
+    </item>
+    
+    <item>
+      <title>如何用 GitHub Pages &#43; Hugo 搭建个人博客</title>
+      <link>https://cuttontail.blog/blog/create-a-wesite-using-github-pages-and-hugo/</link>
+      <pubDate>Mon, 29 Aug 2022 13:01:30 +0800</pubDate>
+      
+      <guid>https://cuttontail.blog/blog/create-a-wesite-using-github-pages-and-hugo/</guid>
+      <description>介绍如何使用一个博客源仓库和一个GitHub Pages仓库，使用 GitHub Pages 和 Hugo 無料搭建个人博客。</description>
+      
+    </item>
+    
+  </channel>
+</rss>
