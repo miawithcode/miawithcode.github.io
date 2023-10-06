@@ -9,7 +9,7 @@
     <copyright>© 2023 小绵尾巴</copyright>
     <lastBuildDate>Wed, 15 Mar 2023 23:09:30 +0800</lastBuildDate><atom:link href="https://cuttontail.blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>重生之我会如何学习前端</title>
+      <title>重生之我会如何学前端</title>
       <link>https://cuttontail.blog/blog/how-i-learn-frontend/</link>
       <pubDate>Wed, 15 Mar 2023 23:09:30 +0800</pubDate>
       
@@ -49,12 +49,12 @@
     </item>
     
     <item>
-      <title>如何在 Mac 上为 GitHub 设置SSH Key（2022）</title>
+      <title>如何在 Mac 上为 GitHub 设置 SSH Key（2022）</title>
       <link>https://cuttontail.blog/blog/how-to-add-ssh-key-to-github-on-mac/</link>
       <pubDate>Fri, 02 Sep 2022 12:14:12 +0800</pubDate>
       
       <guid>https://cuttontail.blog/blog/how-to-add-ssh-key-to-github-on-mac/</guid>
-      <description>介绍如何在Mac上生成一个SSH Key，生成之后将SSH Key添加到自己的GitHub账号中，以便通过SSH对Git操作进行认证。</description>
+      <description>介绍如何在 Mac 上生成一个SSH Key，生成之后将 SSH Key 添加到自己的 GitHub 账号中，以便通过 SSH 对 Git 操作进行认证。</description>
       
     </item>
     
@@ -64,7 +64,7 @@
       <pubDate>Mon, 29 Aug 2022 13:01:30 +0800</pubDate>
       
       <guid>https://cuttontail.blog/blog/create-a-wesite-using-github-pages-and-hugo/</guid>
-      <description>介绍如何使用一个博客源仓库和一个GitHub Pages仓库，使用 GitHub Pages 和 Hugo 無料搭建个人博客。</description>
+      <description>介绍如何使用一个博客源仓库和一个GitHub Pages仓库，使用 GitHub Pages 和 Hugo 搭建个人博客。</description>
       
     </item>
     
@@ -74,12 +74,12 @@
       <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://cuttontail.blog/now/</guid>
-      <description> Now 页面会随着时间和当下生活的优先级而更新，用来让别人看见这个人现在生活的重点是什么，和提醒自己专注于当下最重要的事。 正在做 # 通过 JavaScript Info 复习 JavaScript 学习 Tailwind 学习 React 当下生活的重心 # 掌握 HTML、CSS、JavaScript、Tailwind、React、Java 和 SQL 开发前端项目，并创建自己的 Portfolio 网页 将日语口语提高到能工作的水平 能用 Java 和 MySQL 实现基本的增删改查 </description>
+      <description> Now 页面会随着时间和当下生活的优先级而更新，用来让别人看见这个人现在生活的重点是什么，和提醒自己专注于当下最重要的事。 正在做 # 通过 JavaScript Info 复习 JavaScript 学习 Tailwind 学习 React 正在读 # 《当下的力量》 《如何为爱立界限》 《厌女》 当下生活的重心 # 掌握 HTML、CSS、JavaScript、Tailwind、React、Java 和 SQL 开发前端项目，并创建自己的 Portfolio 网页 将日语口语提高到能工作的水平 能用 Java 和 MySQL 实现基本的增删改查 </description>
       
     </item>
     
     <item>
-      <title>创作者应该为谁创作？寻找创作自由</title>
+      <title>内容创作者应该为谁创作？</title>
       <link>https://cuttontail.blog/blog/create-for-whom/</link>
       <pubDate>Fri, 12 Aug 2022 13:04:43 +0800</pubDate>
       

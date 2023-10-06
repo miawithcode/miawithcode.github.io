@@ -8,10 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>如何在 Mac 上为 GitHub 设置SSH Key（2022） &middot; 小绵尾巴</title>
-  <meta name="title" content="如何在 Mac 上为 GitHub 设置SSH Key（2022） &middot; 小绵尾巴" />
+  <title>如何在 Mac 上为 GitHub 设置 SSH Key（2022） &middot; 小绵尾巴</title>
+  <meta name="title" content="如何在 Mac 上为 GitHub 设置 SSH Key（2022） &middot; 小绵尾巴" />
   
-  <meta name="description" content="介绍如何在Mac上生成一个SSH Key，生成之后将SSH Key添加到自己的GitHub账号中，以便通过SSH对Git操作进行认证。" />
+  <meta name="description" content="介绍如何在 Mac 上生成一个SSH Key，生成之后将 SSH Key 添加到自己的 GitHub 账号中，以便通过 SSH 对 Git 操作进行认证。" />
   <meta name="keywords" content="tutorial, github, " />
   
   
@@ -63,16 +63,16 @@
   
   
   
-  <meta property="og:title" content="如何在 Mac 上为 GitHub 设置SSH Key（2022）" />
-<meta property="og:description" content="介绍如何在Mac上生成一个SSH Key，生成之后将SSH Key添加到自己的GitHub账号中，以便通过SSH对Git操作进行认证。" />
+  <meta property="og:title" content="如何在 Mac 上为 GitHub 设置 SSH Key（2022）" />
+<meta property="og:description" content="介绍如何在 Mac 上生成一个SSH Key，生成之后将 SSH Key 添加到自己的 GitHub 账号中，以便通过 SSH 对 Git 操作进行认证。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://cuttontail.blog/blog/how-to-add-ssh-key-to-github-on-mac/" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2022-09-02T12:14:12+08:00" />
 <meta property="article:modified_time" content="2022-09-02T12:14:12+08:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="如何在 Mac 上为 GitHub 设置SSH Key（2022）"/>
-<meta name="twitter:description" content="介绍如何在Mac上生成一个SSH Key，生成之后将SSH Key添加到自己的GitHub账号中，以便通过SSH对Git操作进行认证。"/>
+<meta name="twitter:title" content="如何在 Mac 上为 GitHub 设置 SSH Key（2022）"/>
+<meta name="twitter:description" content="介绍如何在 Mac 上生成一个SSH Key，生成之后将 SSH Key 添加到自己的 GitHub 账号中，以便通过 SSH 对 Git 操作进行认证。"/>
 
   
   <script type="application/ld+json">
@@ -80,10 +80,10 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Blog",
-    "name": "如何在 Mac 上为 GitHub 设置SSH Key（2022）",
-    "headline": "如何在 Mac 上为 GitHub 设置SSH Key（2022）",
+    "name": "如何在 Mac 上为 GitHub 设置 SSH Key（2022）",
+    "headline": "如何在 Mac 上为 GitHub 设置 SSH Key（2022）",
     
-    "abstract": "介绍如何在Mac上生成一个SSH Key，生成之后将SSH Key添加到自己的GitHub账号中，以便通过SSH对Git操作进行认证。",
+    "abstract": "介绍如何在 Mac 上生成一个SSH Key，生成之后将 SSH Key 添加到自己的 GitHub 账号中，以便通过 SSH 对 Git 操作进行认证。",
     "inLanguage": "zh-cn",
     "url" : "https:\/\/cuttontail.blog\/blog\/how-to-add-ssh-key-to-github-on-mac\/",
     "author" : {
@@ -99,7 +99,7 @@
     "keywords": ["tutorial","github"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "209"
+    "wordCount": "287"
   }]
   </script>
 
@@ -489,7 +489,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      如何在 Mac 上为 GitHub 设置SSH Key（2022）
+      如何在 Mac 上为 GitHub 设置 SSH Key（2022）
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -785,10 +785,10 @@
     class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#1-生成ssh-key">1. 生成SSH Key</a></li>
-    <li><a href="#2-添加ssh-key到ssh-agent">2. 添加SSH Key到ssh-agent</a></li>
-    <li><a href="#3-添加ssh-key到github">3. 添加SSH Key到GitHub</a></li>
-    <li><a href="#4-测试ssh-key是否添加成功">4. 测试SSH Key是否添加成功</a></li>
+    <li><a href="#1-生成-ssh-key">1. 生成 SSH Key</a></li>
+    <li><a href="#2-添加-ssh-key-到-ssh-agent">2. 添加 SSH Key 到 ssh-agent</a></li>
+    <li><a href="#3-添加-ssh-key-到-github">3. 添加 SSH Key 到 GitHub</a></li>
+    <li><a href="#4-测试-ssh-key-是否添加成功">4. 测试 SSH Key 是否添加成功</a></li>
     <li><a href="#reference">Reference</a></li>
   </ul>
 </nav>
@@ -803,10 +803,10 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#1-生成ssh-key">1. 生成SSH Key</a></li>
-    <li><a href="#2-添加ssh-key到ssh-agent">2. 添加SSH Key到ssh-agent</a></li>
-    <li><a href="#3-添加ssh-key到github">3. 添加SSH Key到GitHub</a></li>
-    <li><a href="#4-测试ssh-key是否添加成功">4. 测试SSH Key是否添加成功</a></li>
+    <li><a href="#1-生成-ssh-key">1. 生成 SSH Key</a></li>
+    <li><a href="#2-添加-ssh-key-到-ssh-agent">2. 添加 SSH Key 到 ssh-agent</a></li>
+    <li><a href="#3-添加-ssh-key-到-github">3. 添加 SSH Key 到 GitHub</a></li>
+    <li><a href="#4-测试-ssh-key-是否添加成功">4. 测试 SSH Key 是否添加成功</a></li>
     <li><a href="#reference">Reference</a></li>
   </ul>
 </nav>
@@ -864,15 +864,15 @@
 
 
         <div class="max-w-prose mb-20">
-          <p>SSH(Secure Shell)是允许两台电脑之间通过安全连接进行数据交换的网络协议。</p>
-<p>在本地电脑生成SSH Key私钥，再将SSH Key公钥添加到GitHub，就实现了本地电脑和GitHub服务器安全连接，可以把本地仓库推送到GitHub远程仓库，或把GitHub远程仓库拉取到本地仓库，即两台电脑间的数据交换。</p>
-<p><strong>Noted</strong>：GitHub在2022年5月添加了SSH安全性，以往添加SSH Key的教程在有些细节处可能不适用，这是2022年下半年添加SSH Key的教程。</p>
-<div id="1-生成ssh-key" class="anchor"></div>
-<h2 class="relative group">1. 生成SSH Key 
+          <p>SSH(Secure Shell) 是允许两台电脑之间通过安全连接进行数据交换的网络协议。</p>
+<p>在本地电脑生成 SSH Key 私钥，再将 SSH Key 公钥添加到 GitHub，就实现了本地电脑和 GitHub 服务器安全连接，可以把本地仓库推送到 GitHub 远程仓库，或把 GitHub 远程仓库拉取到本地仓库，即两台电脑间的数据交换。</p>
+<p><strong>Noted</strong>：GitHub 在 2022 年 5 月添加了 SSH 安全性，以往添加 SSH Key 的教程在有些细节处可能不适用，这是 2022 年下半年添加 SSH Key 的教程。</p>
+<div id="1-生成-ssh-key" class="anchor"></div>
+<h2 class="relative group">1. 生成 SSH Key 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#1-%e7%94%9f%e6%88%90ssh-key" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#1-%e7%94%9f%e6%88%90-ssh-key" aria-label="Anchor">#</a></span>        
     
 </h2>
 <ol>
@@ -982,7 +982,7 @@
 </p>
 </li>
 <li>
-<p>往下滑动页面会看到GitHub给出的Mac下生成SSH Key的指南，按照指南的步骤一步一步进行。
+<p>往下滑动页面会看到 GitHub 给出的 Mac 下生成 SSH Key 的指南，按照指南的步骤一步一步进行。
 
 
 
@@ -1008,7 +1008,7 @@
 </p>
 </li>
 <li>
-<p>打开终端（Terminal），复制粘贴以下文本到终端，把 <code>your_email@example.com</code> 替换成你注册GitHub时使用的邮箱，然后按下Enter键。</p>
+<p>打开终端（Terminal），复制粘贴以下文本到终端，把 <code>your_email@example.com</code> 替换成你注册 GitHub 时使用的邮箱，然后按下 Enter 键。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">ssh-keygen -t ed25519 -C <span class="s2">&#34;your_email@example.com&#34;</span>
 </span></span></code></pre></div><p>
 
@@ -1036,7 +1036,7 @@
 </li>
 </ol>
 <ul>
-<li>如果你不记得注册GitHub时使用的邮箱，可以从 <code>Settings</code> 中的 <code>Emails</code> 中查看。
+<li>如果你不记得注册 GitHub 时使用的邮箱，可以从 <code>Settings</code> 中的 <code>Emails</code> 中查看。
 
 
 
@@ -1089,16 +1089,16 @@
 </p>
 </li>
 <li>
-<p>🎉 恭喜你的SSH Key已经生成成功，接下来把生成的SSH Key添加到ssh-agent。</p>
+<p>🎉 恭喜你的 SSH Key 已经生成成功，接下来把生成的 SSH Key 添加到 ssh-agent。</p>
 </li>
 </ol>
 <hr>
-<div id="2-添加ssh-key到ssh-agent" class="anchor"></div>
-<h2 class="relative group">2. 添加SSH Key到ssh-agent 
+<div id="2-添加-ssh-key-到-ssh-agent" class="anchor"></div>
+<h2 class="relative group">2. 添加 SSH Key 到 ssh-agent 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#2-%e6%b7%bb%e5%8a%a0ssh-key%e5%88%b0ssh-agent" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#2-%e6%b7%bb%e5%8a%a0-ssh-key-%e5%88%b0-ssh-agent" aria-label="Anchor">#</a></span>        
     
 </h2>
 <ol>
@@ -1127,13 +1127,13 @@
 <ol start="2">
 <li>
 <p>如果你使用的是<a href="https://docs.github.com/cn/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent"   target="_blank">
-    <strong>macOS Siera 10.12.2或以上的版本</strong></a>，你需要修改 <code>~/.ssh/config</code> 文件来自动加载密钥到ssh-agent 和储存passphrases到你的钥匙链。</p>
+    <strong>macOS Siera 10.12.2 或以上的版本</strong></a>，你需要修改 <code>~/.ssh/config</code> 文件来自动加载密钥到 ssh-agent 和储存 passphrases 到你的钥匙链。</p>
 <ul>
 <li>首先，检查电脑中是否存在 <code>~/.ssh/config</code> 文件</li>
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">open ~/.ssh/config
 </span></span></code></pre></div><ul>
-<li>如果像我一样显示这个config文件不存在，则创建这个文件
+<li>如果像我一样显示这个 config 文件不存在，则创建这个文件
 
 
 
@@ -1158,13 +1158,13 @@
 
 </li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">touch ~/.ssh/config	
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">touch ~/.ssh/config
 </span></span></code></pre></div><ul>
 <li>用编辑器打开 <code>~/.ssh/config</code> 文件</li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">nano ~/.ssh/config 
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">nano ~/.ssh/config
 </span></span></code></pre></div><ul>
-<li>在nano窗口中复制粘贴以下代码：</li>
+<li>在 nano 窗口中复制粘贴以下代码：</li>
 </ul>
 <pre tabindex="0"><code>Host *
 	AddKeysToAgent yes
@@ -1172,7 +1172,7 @@
 	IdentityFile ~/.ssh/id_ed25519
 </code></pre><ul>
 <li>
-<p>粘贴代码后按  <code>control+X</code> 退出编辑器
+<p>粘贴代码后按 <code>control+X</code> 退出编辑器
 
 
 
@@ -1252,11 +1252,11 @@
 </ul>
 </li>
 <li>
-<p>将 SSH Key 添加到ssh-agent。如果你使用的是<a href="https://docs.github.com/cn/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent"   target="_blank">
-    <strong>Mac Monterey(12.0)及以上版本</strong></a>，请使用以下命令（<del>因为在Mac Monterey(12.0)及以上版本中，<code>-K</code> 标志已经被废弃，被 <code>--apple-use-keychain</code> 代替</del>）。</p>
+<p>将 SSH Key 添加到 ssh-agent。如果你使用的是<a href="https://docs.github.com/cn/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent"   target="_blank">
+    <strong>Mac Monterey(12.0)及以上版本</strong></a>，请使用以下命令（<del>因为在 Mac Monterey(12.0)及以上版本中，<code>-K</code> 标志已经被废弃，被 <code>--apple-use-keychain</code> 代替</del>）。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 </span></span></code></pre></div><ul>
-<li>如果不是Mac Monterey(12.0)及以上版本，使用以下命令：</li>
+<li>如果不是 Mac Monterey(12.0)及以上版本，使用以下命令：</li>
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">ssh-add -K ~/.ssh/id_ed25519
 </span></span></code></pre></div></li>
@@ -1288,19 +1288,19 @@
 </li>
 </ul>
 <hr>
-<div id="3-添加ssh-key到github" class="anchor"></div>
-<h2 class="relative group">3. 添加SSH Key到GitHub 
+<div id="3-添加-ssh-key-到-github" class="anchor"></div>
+<h2 class="relative group">3. 添加 SSH Key 到 GitHub 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#3-%e6%b7%bb%e5%8a%a0ssh-key%e5%88%b0github" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#3-%e6%b7%bb%e5%8a%a0-ssh-key-%e5%88%b0-github" aria-label="Anchor">#</a></span>        
     
 </h2>
 <ol>
-<li>在终端输入以下命令， <code>pbcopy</code> 会复制SSH Key内容到剪贴板
+<li>在终端输入以下命令， <code>pbcopy</code> 会复制 SSH Key 内容到剪贴板
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">pbcopy &lt; ~/.ssh/id_ed25519.pub
 </span></span></code></pre></div></li>
-<li>再次打开GitHub <code>Settings</code> 下的 <code>SSH and GPG Key</code> ，点击 <code>New SSH key</code>
+<li>再次打开 GitHub <code>Settings</code> 下的 <code>SSH and GPG Key</code> ，点击 <code>New SSH key</code>
 
 
 
@@ -1324,11 +1324,11 @@
   
 
 </li>
-<li>添加本机生成的SSH Key到GitHub：
+<li>添加本机生成的 SSH Key 到 GitHub：
 <ul>
-<li>在<strong>Title</strong>中给这个SSH Key命名</li>
+<li>在<strong>Title</strong>中给这个 SSH Key 命名</li>
 <li><strong>Key Type</strong>选择 <code>Authentication Key</code></li>
-<li>在<strong>Key</strong>中 <code>Command+V</code> 粘贴刚刚复制的SSH Key</li>
+<li>在<strong>Key</strong>中 <code>Command+V</code> 粘贴刚刚复制的 SSH Key</li>
 <li>添加后点击 <code>Add SSH Key</code> 。
 
 
@@ -1358,16 +1358,16 @@
 <li>🎉 添加完成。</li>
 </ol>
 <hr>
-<div id="4-测试ssh-key是否添加成功" class="anchor"></div>
-<h2 class="relative group">4. 测试SSH Key是否添加成功 
+<div id="4-测试-ssh-key-是否添加成功" class="anchor"></div>
+<h2 class="relative group">4. 测试 SSH Key 是否添加成功 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#4-%e6%b5%8b%e8%af%95ssh-key%e6%98%af%e5%90%a6%e6%b7%bb%e5%8a%a0%e6%88%90%e5%8a%9f" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#4-%e6%b5%8b%e8%af%95-ssh-key-%e6%98%af%e5%90%a6%e6%b7%bb%e5%8a%a0%e6%88%90%e5%8a%9f" aria-label="Anchor">#</a></span>        
     
 </h2>
 <ol>
-<li>选择一个要用SSH Key clone的仓库，复制这个仓库的SSH链接。
+<li>选择一个要用 SSH Key clone 的仓库，复制这个仓库的 SSH 链接。
 
 
 
@@ -1416,7 +1416,7 @@
   
 
 </li>
-<li>🎉 clone成功即代表SSH Key添加成功。</li>
+<li>🎉 clone 成功即代表 SSH Key 添加成功。</li>
 </ol>
 <hr>
 <div id="reference" class="anchor"></div>
@@ -1533,7 +1533,7 @@
   data-app-id="c338a016-d020-4836-918f-ba373be32e00"
   data-page-id="0bbc72a63228660558c9da44aa1e1a2e"
   data-page-url="/blog/how-to-add-ssh-key-to-github-on-mac/"
-  data-page-title="如何在 Mac 上为 GitHub 设置SSH Key（2022）"
+  data-page-title="如何在 Mac 上为 GitHub 设置 SSH Key（2022）"
 ></div><script type='text/javascript'>
   (()=>{window.CUSDIS_LOCALE={powered_by:"\u8BC4\u8BBA\u7531 Cusdis \u63D0\u4F9B",post_comment:"\u53D1\u9001",loading:"\u52A0\u8F7D\u4E2D",email:"\u90AE\u7BB1\u5730\u5740 (\u53EF\u9009)",nickname:"\u6635\u79F0",reply_placeholder:"\u56DE\u590D\u5185\u5BB9\u2026",reply_btn:"\u56DE\u590D",sending:"\u53D1\u9001\u4E2D\u2026",mod_badge:"\u7BA1\u7406\u5458",content_is_required:"\u5185\u5BB9\u4E0D\u80FD\u4E3A\u7A7A",nickname_is_required:"\u6635\u79F0\u4E0D\u80FD\u4E3A\u7A7A",comment_has_been_sent:"\u8BC4\u8BBA\u5DF2\u53D1\u9001\uFF0C\u7BA1\u7406\u5458\u5BA1\u6838\u901A\u8FC7\u540E\u4F1A\u5C55\u793A"};})();
 
