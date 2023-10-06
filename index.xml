@@ -10,10 +10,10 @@
     <lastBuildDate>Wed, 15 Mar 2023 23:09:30 +0800</lastBuildDate><atom:link href="https://cuttontail.blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重生之我会如何学习前端</title>
-      <link>https://cuttontail.blog/blog/how-will-i-learn-frontend-again/</link>
+      <link>https://cuttontail.blog/blog/how-i-learn-frontend/</link>
       <pubDate>Wed, 15 Mar 2023 23:09:30 +0800</pubDate>
       
-      <guid>https://cuttontail.blog/blog/how-will-i-learn-frontend-again/</guid>
+      <guid>https://cuttontail.blog/blog/how-i-learn-frontend/</guid>
       <description>学习前端的路线与用到的资源</description>
       
     </item>
@@ -114,7 +114,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cuttontail.blog/about/</guid>
-      <description>About Me # 小綿尾巴是网名，你也可以叫我小绵或 Mia。 我从 2022-07 开始写博客，第一篇博客是 独立博客过时后，为什么开始写博客了？ 学习日语中，目前已通过 N2，正在为了成为在日程序员而努力。 我关心前端技术、UI/UX设计、生产力工具、书籍、女性主义、个人成长、亲密关系、数字生活和一切让人觉得美好的事物。 About Site # 博客生日：2022-08-30 使用Hugo搭建，部署在GitHub Pages上： 如何用 GitHub Pages + Hugo 搭建个人博客 Now页面的灵感来源于 Derek Sivers Don&amp;rsquo;t be shy, let&amp;rsquo;s connect!</description>
+      <description>About Me # 小綿尾巴是网名，你也可以叫我小绵或 Mia。 我从 2022-07 开始写博客，第一篇博客是 独立博客过时后，为什么开始写博客了？ 学习日语中，目前已通过 N2，正在为了去东京工作而努力。 我关心前端技术、UI/UX 设计、生产力工具、书籍、女性主义、个人成长、亲密关系、数字生活和一切让人觉得美好的事物。 About Site # 本站生日：2022-08-30 使用 Hugo 搭建，部署在 GitHub Pages 上： 如何用 GitHub Pages + Hugo 搭建个人博客 Now 页面的灵感来自 Derek Sivers Don&amp;rsquo;t be shy, let&amp;rsquo;s connect!</description>
       
     </item>
     
