@@ -9,11 +9,11 @@
     <copyright>© 2023 小绵尾巴</copyright>
     <lastBuildDate>Wed, 15 Mar 2023 23:09:30 +0800</lastBuildDate><atom:link href="https://cuttontail.blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>如果能重来，我会怎么学习前端</title>
-      <link>https://cuttontail.blog/blog/how-i-learn-frontend/</link>
+      <title>重生之我会如何学习前端</title>
+      <link>https://cuttontail.blog/blog/how-will-i-learn-frontend-again/</link>
       <pubDate>Wed, 15 Mar 2023 23:09:30 +0800</pubDate>
       
-      <guid>https://cuttontail.blog/blog/how-i-learn-frontend/</guid>
+      <guid>https://cuttontail.blog/blog/how-will-i-learn-frontend-again/</guid>
       <description>学习前端的路线与用到的资源</description>
       
     </item>
@@ -74,7 +74,7 @@
       <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://cuttontail.blog/now/</guid>
-      <description> Now 页面会随着时间和当下生活的优先级而更新，用来让别人看见这个人现在生活的重点是什么，和提醒自己专注于当下最重要的事。 正在做 # 通过 JavaScript Info复习JavaScript 学习Tailwind 学习React 学习如何使用Vite </description>
+      <description> Now 页面会随着时间和当下生活的优先级而更新，用来让别人看见这个人现在生活的重点是什么，和提醒自己专注于当下最重要的事。 正在做 # 通过 JavaScript Info 复习 JavaScript 学习 Tailwind 学习 React 当下生活的重心 # 掌握 HTML、CSS、JavaScript、Tailwind、React、Java 和 SQL 开发前端项目，并创建自己的 Portfolio 网页 将日语口语提高到能工作的水平 能用 Java 和 MySQL 实现基本的增删改查 </description>
       
     </item>
     
@@ -99,7 +99,7 @@
     </item>
     
     <item>
-      <title>独立博客过时以后，为什么开始写博客了？</title>
+      <title>独立博客过时后，为什么开始写博客了？</title>
       <link>https://cuttontail.blog/blog/why-blog/</link>
       <pubDate>Fri, 29 Jul 2022 16:01:02 +0800</pubDate>
       
@@ -114,7 +114,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cuttontail.blog/about/</guid>
-      <description>About Me # 小綿尾巴是网名，你也可以叫我Mia。 我从 2022-07 开始写博客： 独立博客过时以后，为什么开始写博客了？ 学习日语中，日本語初心者，正在为了成为在日程序员而努力。 我关心技术、设计、工具、书籍、生产力、女性主义、个人成长、数字生活和一切让人觉得美好的事物。 About Site # 博客生日：2022-08-30 使用Hugo搭建，部署在GitHub Pages上： 如何用 GitHub Pages + Hugo 搭建个人博客 Now页面的灵感来源于 Derek Sivers Don&amp;rsquo;t be shy, let&amp;rsquo;s connect!</description>
+      <description>About Me # 小綿尾巴是网名，你也可以叫我小绵或 Mia。 我从 2022-07 开始写博客，第一篇博客是 独立博客过时后，为什么开始写博客了？ 学习日语中，目前已通过 N2，正在为了成为在日程序员而努力。 我关心前端技术、UI/UX设计、生产力工具、书籍、女性主义、个人成长、亲密关系、数字生活和一切让人觉得美好的事物。 About Site # 博客生日：2022-08-30 使用Hugo搭建，部署在GitHub Pages上： 如何用 GitHub Pages + Hugo 搭建个人博客 Now页面的灵感来源于 Derek Sivers Don&amp;rsquo;t be shy, let&amp;rsquo;s connect!</description>
       
     </item>
     
