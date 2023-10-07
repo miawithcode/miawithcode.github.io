@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>css on 小绵尾巴</title>
+    <link>https://cuttontail.blog/tags/css/</link>
+    <description>Recent content in css on 小绵尾巴</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2023 小绵尾巴</copyright>
+    <lastBuildDate>Tue, 03 Oct 2023 15:29:32 +0800</lastBuildDate><atom:link href="https://cuttontail.blog/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>开发一个 Portfolio 网页，我学到了什么</title>
+      <link>https://cuttontail.blog/blog/what-i-learned-after-developing-a-portfolio-website/</link>
+      <pubDate>Tue, 03 Oct 2023 15:29:32 +0800</pubDate>
+      
+      <guid>https://cuttontail.blog/blog/what-i-learned-after-developing-a-portfolio-website/</guid>
+      <description>1.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://cuttontail.blog/blog/what-i-learned-after-developing-a-portfolio-website/featured.png" />
+    </item>
+    
+    <item>
+      <title>重生之我会如何学前端</title>
+      <link>https://cuttontail.blog/blog/how-i-learn-frontend/</link>
+      <pubDate>Wed, 15 Mar 2023 23:09:30 +0800</pubDate>
+      
+      <guid>https://cuttontail.blog/blog/how-i-learn-frontend/</guid>
+      <description>学习前端的路线与用到的资源</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -5,10 +5,12 @@
     
       <url>
             <loc>https://cuttontail.blog/blog/</loc>
-            <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+            <lastmod>2023-10-03T15:29:32+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
+    
+  
     
   
     
@@ -17,11 +19,28 @@
   
     
       <url>
-            <loc>https://cuttontail.blog/</loc>
-            <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+            <loc>https://cuttontail.blog/blog/what-i-learned-after-developing-a-portfolio-website/</loc>
+            <lastmod>2023-10-03T15:29:32+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
+    
+  
+    
+      <url>
+            <loc>https://cuttontail.blog/</loc>
+            <lastmod>2023-10-03T15:29:32+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
     
   
     
@@ -31,10 +50,6 @@
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
-    
-  
-    
-  
     
   
     
