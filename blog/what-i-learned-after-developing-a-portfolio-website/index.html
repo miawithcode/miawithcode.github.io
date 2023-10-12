@@ -100,7 +100,7 @@
     "keywords": ["html","css"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1470"
+    "wordCount": "1472"
   }]
   </script>
 
@@ -1399,9 +1399,9 @@
 <ul>
 <li>
 <p>创建<code>styles</code>文件夹，把<code>style.css</code>移动到该文件夹下。并在<code>main.js</code>中修改文件路径：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="cm">/* 将 import &#39;./style.css&#39; 修改为 import &#39;./styles/style.css&#39; */</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="cm">/* 将 import &#39;./style.css&#39; 修改为 import &#39;../styles/style.css&#39; */</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="s2">&#34;./styles/style.css&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="s2">&#34;../styles/style.css&#34;</span><span class="p">;</span>
 </span></span></code></pre></div></li>
 <li>
 <p>创建<code>src</code>文件夹，把<code>main.js</code>移动到该文件夹中，并在<code>index.html</code>中修改文件路径：</p>
@@ -1544,19 +1544,19 @@
 <li>
 <p>首先把所有 JavaScript 代码写在一个箭头函数下，并通过<code>export</code>导出。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">mobileNav</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="cm">/* ... */</span>
+</span></span><span class="line"><span class="cl"><span class="cm">/* ... */</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="kr">export</span> <span class="k">default</span> <span class="nx">mobileNav</span><span class="p">;</span>
 </span></span></code></pre></div></li>
 <li>
 <p>在<code>main.js</code>中导入<code>mobile-nav.js</code>，并调用该箭头函数。</p>
-</li>
-</ol>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kr">import</span> <span class="nx">mobileNav</span> <span class="nx">from</span> <span class="s1">&#39;./utils/mobile-nav&#39;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nx">mobileNav</span><span class="p">();</span>
-</span></span></code></pre></div><hr>
+</span></span></code></pre></div></li>
+</ol>
+<hr>
 <div id="6-添加基本样式" class="anchor"></div>
 <h2 class="relative group">6. 添加基本样式 
     <span
@@ -1685,7 +1685,7 @@
 <p>在<code>main.js</code>中的第一行导入<code>modern-normalize.css</code>，因为我们希望<code>modern-normalize.css</code>在项目中的优先级是<strong>最低</strong>的。</p>
 </li>
 </ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kr">import</span> <span class="s2">&#34;./styles/modern-normalize.css&#34;</span><span class="p">;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kr">import</span> <span class="s2">&#34;../styles/modern-normalize.css&#34;</span><span class="p">;</span>
 </span></span></code></pre></div><p>
 
 
@@ -1833,8 +1833,9 @@
 <p>在<code>style</code>文件夹下创建<code>utils.css</code>。</p>
 </li>
 <li>
-<p>在<code>main.js</code>中导入了<code>utils.css</code>。要注意未来导入其他 CSS 文件时，需要确保<code>utils.css</code>永远是最后一个导入的 CSS 文件，因为它的优先级应该是最高的，否则里面的样式不会生效。
-
+<p>在<code>main.js</code>中导入了<code>utils.css</code>。要注意未来导入其他 CSS 文件时，需要确保<code>utils.css</code>永远是最后一个导入的 CSS 文件，因为它的优先级应该是最高的，否则里面的样式不会生效。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kr">import</span> <span class="s1">&#39;../styles/utils.css&#39;</span><span class="p">;</span>
+</span></span></code></pre></div><p>
 
 
 
