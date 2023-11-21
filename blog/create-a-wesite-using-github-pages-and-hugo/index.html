@@ -99,7 +99,7 @@
     "keywords": ["tutorial","hugo","github pages"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "555"
+    "wordCount": "558"
   }]
   </script>
 
@@ -970,11 +970,11 @@
 <ol>
 <li>创建 2 个 GitHub 仓库
 <ul>
-<li><strong>博客源仓库</strong>：储存所有博客内容，以及博客中用到的图片等等</li>
-<li><strong>GitHub Pages 仓库</strong>：将网页部署在 GitHub Pages</li>
+<li><strong>博客源仓库</strong>：储存所有 Markdown 源文件（博客内容），和博客中用到的图片等。</li>
+<li><strong>GitHub Pages 仓库</strong>：储存由 Hugo 从Markdown 文件生成的 HTML 文件。</li>
 </ul>
 </li>
-<li>将在<strong>博客源仓库</strong>中 Hugo 生成的静态 HTML 文件部署到远端<strong>GitHub Pages 仓库</strong>中。</li>
+<li>将在<strong>博客源仓库</strong>中 Hugo 生成的静态 HTML 文件部署到远端 <strong>GitHub Pages 仓库</strong>中。</li>
 </ol>
 <div id="14-运行环境" class="anchor"></div>
 <h3 class="relative group">1.4 运行环境 
@@ -1291,8 +1291,8 @@
 
 </p>
 <ul>
-<li><strong>archetypes</strong>：存放用 hugo 命令新建的 md 文件应用的 front matter 模版</li>
-<li><strong>content</strong>：存放内容页面，如 Blog</li>
+<li><strong>archetypes</strong>：存放用 hugo 命令新建的 Markdown 文件应用的 front matter 模版</li>
+<li><strong>content</strong>：存放内容页面，比如「博客」、「读书笔记」等</li>
 <li><strong>layouts</strong>：存放定义网站的样式，写在<code>layouts</code>文件下的样式会覆盖安装的主题中的 <code>layouts</code>文件同名的样式</li>
 <li><strong>static</strong>：存放所有静态文件，如图片</li>
 <li><strong>data</strong>：存放创建站点时 Hugo 使用的其他数据</li>
@@ -1357,7 +1357,7 @@
 </p>
 </li>
 <li>
-<p>打开刚刚用 Hugo 创建的网站文件夹（我的是 cuttontail-blog），在终端输入文档中给出的命令。
+<p>打开刚刚用 Hugo 创建的网站文件夹（我的是 cuttontail-blog），在终端粘贴文档中给出的安装命令。
 
 
 
@@ -1426,7 +1426,7 @@
 非常推荐这么做，这样做能解决很多「为什么明明跟教程一步一步做下来，显示的结果却不一样？」的疑惑。（这主要是因为不同的主题模版配置文件不同导致的。）</p>
 </li>
 <li>
-<p>在把<code>exampleSite</code>文件复制到站点目录时，根据<strong>对应</strong>文件夹进行复制文件</p>
+<p>在把<code>exampleSite</code>文件复制到站点目录时，请根据<strong>对应</strong>文件夹进行复制文件</p>
 <ul>
 <li>比如<code>exampleSite</code>下有 <code>content</code> ,  <code>static</code>  和  <code>config.toml</code> 3 个文件，就找到你自己的站点跟目录下这对应的三个文件。在把对应目录中的内容分别复制过去。
 
@@ -1500,7 +1500,7 @@
 </h2>
 <p>用 Hugo 创建一篇文章的命令是:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo new xxx.md
-</span></span></code></pre></div><p>用这个命令创建的 Markdown 文件会套用 <code>archetypes</code> 文件夹中的 front matter 模版，在空白处用 Markdown 写入 blog 内容。
+</span></span></code></pre></div><p>用这个命令创建的 Markdown 文件会套用 <code>archetypes</code> 文件夹中的 front matter 模版，在空白处用 Markdown 写入内容。
 
 
 
@@ -1524,7 +1524,7 @@
   
 
 </p>
-<p>其中：<code>draft: true</code>代表这篇文章是一个草稿，Hugo 不会显示草稿，要在主页显示添加的文章，可以设置 <code>draft: false</code>；或者直接删掉这行。</p>
+<p>其中，<code>draft: true</code>代表这篇文章是一个草稿，Hugo 不会显示草稿，要在主页显示添加的文章，可以设置 <code>draft: false</code>；或者直接删掉这行。</p>
 <hr>
 <div id="8-本地调试和预览" class="anchor"></div>
 <h2 class="relative group">8. 本地调试和预览 
@@ -1828,7 +1828,7 @@
 <li>
 <p>后续的更新步骤：</p>
 <ol>
-<li>创建你的文章.md</li>
+<li>创建你的文章<code>xxx.md</code></li>
 <li>用 <code>hugo server</code> 在本地预览，满意后准备发布。</li>
 <li>运行 <code>hugo</code> 命令将 Markdown 文件生成 HTML 文件。</li>
 <li>将修改先提交至<strong>博客源仓库</strong></li>
