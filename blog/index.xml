@@ -19,16 +19,6 @@
     </item>
     
     <item>
-      <title>重生之我会如何学前端</title>
-      <link>https://cuttontail.blog/blog/how-i-learn-frontend/</link>
-      <pubDate>Wed, 15 Mar 2023 23:09:30 +0800</pubDate>
-      
-      <guid>https://cuttontail.blog/blog/how-i-learn-frontend/</guid>
-      <description>学习前端的路线与用到的资源</description>
-      
-    </item>
-    
-    <item>
       <title>如何给项目设置 GitHub Pages</title>
       <link>https://cuttontail.blog/blog/deploy-project-to-gh-pages/</link>
       <pubDate>Tue, 18 Oct 2022 20:36:05 +0800</pubDate>
@@ -55,16 +45,6 @@
       
       <guid>https://cuttontail.blog/blog/create-a-wesite-using-github-pages-and-hugo/</guid>
       <description>介绍如何使用一个博客源仓库和一个GitHub Pages仓库，使用 GitHub Pages 和 Hugo 搭建个人博客。</description>
-      
-    </item>
-    
-    <item>
-      <title>内容创作者应该为谁创作？</title>
-      <link>https://cuttontail.blog/blog/create-for-whom/</link>
-      <pubDate>Fri, 12 Aug 2022 13:04:43 +0800</pubDate>
-      
-      <guid>https://cuttontail.blog/blog/create-for-whom/</guid>
-      <description>在内容创作上，应该以「创造至少对世界上的一个人有帮助的东西」这样的心情去创作，还是以「为自己创造，让帮助到别人这件事成为附加奖励」的心情去创作呢&amp;hellip;</description>
       
     </item>
     

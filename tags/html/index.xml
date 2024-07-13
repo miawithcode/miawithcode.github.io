@@ -18,15 +18,5 @@
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://cuttontail.blog/blog/what-i-learned-after-developing-a-portfolio-website/featured.png" />
     </item>
     
-    <item>
-      <title>重生之我会如何学前端</title>
-      <link>https://cuttontail.blog/blog/how-i-learn-frontend/</link>
-      <pubDate>Wed, 15 Mar 2023 23:09:30 +0800</pubDate>
-      
-      <guid>https://cuttontail.blog/blog/how-i-learn-frontend/</guid>
-      <description>学习前端的路线与用到的资源</description>
-      
-    </item>
-    
   </channel>
 </rss>
